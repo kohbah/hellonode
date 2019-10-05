@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("kohbahdevops/hellonode")
+        app = docker.build("kohbah/dockerpipeline")
     }
 
     stage('Test image') {
